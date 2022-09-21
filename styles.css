@@ -1,0 +1,42 @@
+body {
+    background-color: hsl(212, 45%, 89%);
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+}
+
+.card {
+    margin: 75px auto;
+    width: 40%;
+    height: 90%;
+    background-color: white;
+    border-radius: 15px 15px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+ .innerCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+ }
+
+img {
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 15px 15px;
+    width: 80%;
+    height: 60%;
+    margin: 20px auto;
+    
+}
+
+.description p {
+    color: hsl(212, 45%, 89%);
+    font-size: 15px;
+}
+
+.attribution {
+    position: fixed;
+    bottom: 10px;
+}
